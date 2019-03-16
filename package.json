@@ -4,7 +4,9 @@
   "description": "Nodejs Api Pattern for Enterprise",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test-mbiz": "mocha PuppyFramework/test/MemberBizTest.js",
+    "test-api": "mocha PuppyFramework/test/MemberApiTest.js"
   },
   "keywords": [
     "NodeJS",
@@ -29,5 +31,17 @@
     "uuid": "^3.3.2",
     "validate.js": "^0.12.0",
     "winston": "^3.2.1"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isares/PuppyFrameworkJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isares/PuppyFrameworkJS/issues"
+  },
+  "homepage": "https://github.com/isares/PuppyFrameworkJS#readme"
 }
